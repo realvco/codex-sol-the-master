@@ -1,6 +1,6 @@
 # 變更紀錄
 
-<p align="center"><a href="./CHANGELOG.zh-TW.md">繁體中文</a> · <a href="./CHANGELOG.md"><kbd><strong>English</strong></kbd></a></p>
+<p align="center"><strong>繁體中文</strong> · <a href="./CHANGELOG.md"><mark><strong>English</strong></mark></a></p>
 
 ## 目前公開契約
 

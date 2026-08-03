@@ -1,6 +1,6 @@
 # 設定說明
 
-<p align="center"><a href="./CONFIGURATION.zh-TW.md">繁體中文</a> · <a href="./CONFIGURATION.md"><kbd><strong>English</strong></kbd></a></p>
+<p align="center"><strong>繁體中文</strong> · <a href="./CONFIGURATION.md"><mark><strong>English</strong></mark></a></p>
 
 ## 正式指令對應
 

@@ -7,8 +7,9 @@
       aliases.
 - [ ] `README.md` is the Traditional Chinese primary page and `README.en.md` is
       the English companion page.
-- [ ] Both README files expose the same top links, with `Traditional Chinese` and a visibly
-      emphasized `<kbd><strong>English</strong></kbd>` link, and link to each other.
+- [ ] Both README files expose the same top language labels, with the current language as
+      plain text and `English` visibly emphasized using `<mark><strong>English</strong></mark>`;
+      the alternate language remains the link.
 - [ ] Language links are plain anchors without heading hover icons or unwanted
       underline decoration.
 - [ ] Configuration, testing, and changelog documents each have Traditional

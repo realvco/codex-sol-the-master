@@ -1,7 +1,7 @@
 <table align="center">
   <tr>
     <td align="center"><a href="./README.md">Traditional Chinese</a></td>
-    <td align="center"><a href="./README.en.md"><kbd><strong>English</strong></kbd></a></td>
+    <td align="center"><mark><strong>English</strong></mark></td>
   </tr>
 </table>
 

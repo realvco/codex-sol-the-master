@@ -44,15 +44,13 @@ limitation, not permission to infer Standard or Fast.
 - `docs/CHANGELOG.zh-TW.md` and `docs/CHANGELOG.md` are paired change records.
 - English-facing files contain no CJK text; they link to Traditional Chinese
   companions by English labels and paths.
-- Both root README pages show only two centered language links at the very top, before the
-  title and long-form content: `Traditional Chinese` and a visibly emphasized
-  `<kbd><strong>English</strong></kbd>` link.
-- The two text links point to the two README files; image badges are not used as
-  the language selector. Use plain anchor text links rather than `h2`/`h3`
-  wrappers so GitHub does not add heading hover anchors or a clipped hash icon.
-- The English link uses GitHub-supported `<kbd>` and `<strong>` markup to make the available
-  English documentation obvious without relying on stripped inline CSS. Keep the root README
-  scannable and move detailed procedures into `docs/`.
+- Both root README pages show two centered language labels at the very top, before the title
+  and long-form content. The current language is plain, non-clickable text; the alternate
+  language remains the link. The `English` label uses GitHub-supported `<mark>` and
+  `<strong>` markup so its availability is obvious without a small keycap or stripped CSS.
+- Use plain text and anchor markup rather than `h2`/`h3` wrappers so GitHub does not add
+  heading hover anchors or a clipped hash icon. Keep the root README scannable and move
+  detailed procedures into `docs/`.
 
 ## Change policy
 
