@@ -1,0 +1,21 @@
+# Codex and local runtime state
+.codex/
+.agents/
+*.log
+logs/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.token
+
+# Local staging and OS/editor files
+.sol-*.update.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/`n

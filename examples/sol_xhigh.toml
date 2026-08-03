@@ -1,0 +1,21 @@
+name = "sol_xhigh"
+
+description = """
+Use this custom agent only when the user invokes the exact active command
+恭請高高手處理.
+
+This agent uses gpt-5.6-sol with xhigh reasoning effort. Do not select it
+automatically because a task is difficult, important, or cross-file. Do not
+request Fast service tier.
+"""
+
+model = "gpt-5.6-sol"
+model_reasoning_effort = "xhigh"
+
+developer_instructions = """
+Perform the complete task delegated by the parent agent. Examine assumptions,
+edge cases, and validation evidence carefully. Do not silently change the
+objective, spawn nested agents, or modify unrelated files. Report work,
+decisions, files, checks, observed model/effort/tier, and limitations. After
+returning the result, control belongs to the parent task.
+"""`n
