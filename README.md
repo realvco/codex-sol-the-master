@@ -1,64 +1,44 @@
-# Codex Sol delegation
+# Codex Sol 委派設定
 
-This repository documents a two-level, explicit delegation setup for Codex:
+本專案整理一套「明確指令、單次委派」的兩層 Codex Sol 設定。
 
-| Exact command | Custom agent | Model | Reasoning |
+| 精確指令 | 自訂 Agent | 模型 | 推理強度 |
 | --- | --- | --- | --- |
 | `有請高手處理` | `sol_high` | `gpt-5.6-sol` | `high` |
 | `恭請高高手處理` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 
-The commands are single-task controls. They do not permanently change the
-primary model, effort, or speed setting. Matching is literal: do not use fuzzy,
-substring, punctuation-normalized, or semantic matching. The two commands must
-never activate one another.
+指令只作用於目前這一項任務，不會永久改變主 Agent 的模型、推理強度或速度
+設定。辨識必須採用逐字精確比對；不得使用模糊比對、子字串比對、標點正規化
+或語意相似度。兩個指令不可互相誤觸發。
 
-## What is included
+## 專案內容
 
-- `SOL_DELEGATION_SETUP_REQUEST.md` — the original setup request preserved as
-  supplied. It is an archival snapshot; the current command names are the
-  ones in the table above.
-- `docs/CHANGELOG.md` — the small change record explaining that update.
-- `docs/CONFIGURATION.md` — the intended file layout and safe installation
-  guidance.
-- `docs/TESTING.md` — positive, negative, and return-to-default tests.
-- `examples/` — sanitized example files; these are templates, not active
-  personal configuration.
-- `AGENTS.md`, `CONTENT-SPEC.md`, and `CHECKLIST.md` — project operating rules,
-  scope, and release checks.
+- `SOL_DELEGATION_SETUP_REQUEST.md`：保留原始設定需求；它是歷史快照。
+- `docs/CONFIGURATION.md`：檔案配置與安全安裝說明。
+- `docs/TESTING.md`：正向、負向及回到預設設定的測試方式。
+- `examples/`：去除個人路徑的範例；不是目前電腦上的啟用設定。
+- `AGENTS.md`、`CONTENT-SPEC.md`、`CHECKLIST.md`：專案規則、範圍及發布檢查。
 
-This repository is documentation and configuration examples. It is not a Codex
-plugin and it does not automatically modify a user's Codex installation.
+這是一個文件與設定範例專案，不是 Codex plugin，也不會自動修改使用者的
+Codex 安裝。
 
-## Quick start
+## 快速測試
 
-1. Read [Configuration](docs/CONFIGURATION.md).
-2. Back up the personal Codex home before making changes.
-3. Install the examples only after checking the current Codex version and the
-   supported agent schema for that version.
-4. Start a new task and run the tests in [Testing](docs/TESTING.md).
-
-Use the exact command as an active instruction followed by a harmless,
-read-only task. For example:
+先閱讀 [docs/TESTING.md](docs/TESTING.md)，再開一個新的 Codex task，使用
+精確指令搭配無害的唯讀工作，例如：
 
 ```text
 有請高手處理。請讀取 README.md，列出本專案的三個主要檔案，不要修改任何檔案。
 ```
 
-The parent task should resume after the delegated child reports completion.
-When the client does not expose service-tier telemetry, report that limitation
-instead of claiming a tier that was not observed.
+測試時要確認實際子 Agent 名稱、模型與推理強度。若客戶端沒有提供 service
+tier 遙測，就明確標示「未觀測到」，不要推測或宣稱已驗證。
 
-## Scope and safety
+## 安全
 
-The setup is deliberately opt-in. Difficulty, importance, file count, or a
-request for deeper reasoning is not an activation command. Quoted examples,
-documentation, translation requests, and negated instructions are not
-activation commands either.
+不要提交 API key、token、私有 log、個人絕對路徑或個人 Codex home 內容。
+詳見 [SECURITY.md](SECURITY.md)。
 
-Never publish API keys, tokens, private logs, absolute personal paths, or the
-contents of a private Codex home. See [SECURITY.md](SECURITY.md).
+## English
 
-## License
-
-The documentation and examples are released under the MIT License. See
-[LICENSE](LICENSE).`n
+英文版本請見 [README.en.md](README.en.md)。`n
