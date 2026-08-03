@@ -82,10 +82,8 @@ private logs, personal absolute paths, or a private Codex Home.
   supplied. It is an archival snapshot; the current command names are the
   ones in the table above.
 - `docs/CONFIGURATION.md` — the English file layout and safe-install guide.
-- `docs/CONFIGURATION.zh-TW.md` — the Traditional Chinese configuration guide.
 - `docs/TESTING.md` — English positive, negative, and return-to-default tests.
-- `docs/TESTING.zh-TW.md` — Traditional Chinese testing and recovery guide.
-- `docs/CHANGELOG.md` and `docs/CHANGELOG.zh-TW.md` — bilingual change records.
+- `docs/CHANGELOG.md` — the English change record.
 - `examples/` — sanitized example files; these are templates, not active
   personal configuration.
 - `AGENTS.md`, `CONTENT-SPEC.md`, and `CHECKLIST.md` — project operating rules,
@@ -96,11 +94,11 @@ plugin and it does not automatically modify a user's Codex installation.
 
 ## Quick start
 
-1. Read [Configuration](docs/CONFIGURATION.md) or the [Traditional Chinese configuration guide](docs/CONFIGURATION.zh-TW.md).
+1. Read [Configuration](docs/CONFIGURATION.md).
 2. Back up the personal Codex home before making changes.
 3. Install the examples only after checking the current Codex version and the
    supported agent schema for that version.
-4. Start a new task and run the tests in [Testing](docs/TESTING.md) or the [Traditional Chinese testing guide](docs/TESTING.zh-TW.md).
+4. Start a new task and run the tests in [Testing](docs/TESTING.md).
 
 Use the exact command as an active instruction followed by a harmless,
 read-only task. For example:

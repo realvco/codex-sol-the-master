@@ -14,9 +14,7 @@ Use literal, exact matching only:
 - `summon sol xhigh` delegates the current task to `sol_xhigh` (`gpt-5.6-sol`,
   `xhigh`).
 
-The Traditional Chinese aliases are documented in
-`docs/CONFIGURATION.zh-TW.md`; this English template intentionally contains
-only the English aliases.
+This English template intentionally contains only the English aliases.
 
 Do not match substrings, punctuation-normalized variants, semantic similarities,
 quoted examples, or negated instructions. Do not request Fast service tier. The

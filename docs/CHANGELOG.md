@@ -14,15 +14,12 @@ snapshot and predates that wording decision. It remains unchanged so that the
 request can be audited, while the examples and current documentation describe
 the final names.
 
-The Traditional Chinese companion is [CHANGELOG.zh-TW.md](CHANGELOG.zh-TW.md).
-
 ## Documentation status
 
 - `SOL_DELEGATION_SETUP_REQUEST.md` is the preserved original request snapshot.
-- `README.md` is the Traditional Chinese primary entry page and `README.en.md`
-  is the English companion page.
-- `docs/CONFIGURATION.md` and `docs/CONFIGURATION.zh-TW.md` are paired guides.
-- `docs/TESTING.md` and `docs/TESTING.zh-TW.md` are paired testing guides.
+- `README.en.md` is the English primary entry page.
+- `docs/CONFIGURATION.md` is the English configuration guide.
+- `docs/TESTING.md` is the English testing guide.
 
 ## Speed and verification principles
 

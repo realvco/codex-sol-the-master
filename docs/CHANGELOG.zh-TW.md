@@ -15,9 +15,9 @@
 ## 文件狀態
 
 - `SOL_DELEGATION_SETUP_REQUEST.md` 是最初需求的原始快照，保持不變以供稽核。
-- `README.md` 是繁體中文主入口；`README.en.md` 是英文主入口。
-- `docs/CONFIGURATION.zh-TW.md` 與 `docs/CONFIGURATION.md` 是雙語設定說明。
-- `docs/TESTING.zh-TW.md` 與 `docs/TESTING.md` 是雙語測試說明。
+- `README.md` 是繁體中文主入口。
+- `docs/CONFIGURATION.zh-TW.md` 是繁中設定說明。
+- `docs/TESTING.zh-TW.md` 是繁中測試說明。
 
 ## 速度與驗證原則
 

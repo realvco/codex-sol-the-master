@@ -42,8 +42,8 @@ limitation, not permission to infer Standard or Fast.
 - `docs/TESTING.zh-TW.md` and `docs/TESTING.md` are paired testing guides with
   equivalent positive, negative, collision, and return-to-default coverage.
 - `docs/CHANGELOG.zh-TW.md` and `docs/CHANGELOG.md` are paired change records.
-- English-facing files contain no CJK text; they link to Traditional Chinese
-  companions by English labels and paths.
+- English-facing files contain no CJK text and keep body links within the English
+  documentation set. Cross-language navigation is limited to the top language selector.
 - Both root README pages show two centered language labels at the very top, before the title
   and long-form content. The current language is plain, non-clickable text; the alternate
   language remains the link. The `English` label uses GitHub-supported `<mark>` and

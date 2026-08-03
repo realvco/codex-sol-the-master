@@ -34,10 +34,10 @@ user's live Codex home.
 
 ## Validation
 
-Before a release, run the checks in `CHECKLIST.md` and both language versions of
-the test protocol: `docs/TESTING.md` and `docs/TESTING.zh-TW.md`. At minimum,
-parse both TOML examples, scan for secrets and private paths, verify the exact
-command mapping and bilingual links, and inspect `git diff` before committing.
+Before a release, run the checks in `CHECKLIST.md` and the language-specific
+test protocol. At minimum, parse both TOML examples, scan for secrets and
+private paths, verify the exact command mapping and language selector links,
+and inspect `git diff` before committing.
 
 ## Reporting
 

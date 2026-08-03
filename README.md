@@ -66,10 +66,8 @@ Agent 重複做同一件事。只有在使用者清楚劃分兩個互不重疊�
 
 - `SOL_DELEGATION_SETUP_REQUEST.md`：保留原始設定需求；它是歷史快照。
 - [`docs/CONFIGURATION.zh-TW.md`](docs/CONFIGURATION.zh-TW.md)：繁中檔案配置與安全安裝說明。
-- [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md)：英文版設定與安全安裝說明。
 - [`docs/TESTING.zh-TW.md`](docs/TESTING.zh-TW.md)：繁中正向、負向及回到預設測試。
-- [`docs/TESTING.md`](docs/TESTING.md)：英文版正向、負向及回到預設設定的測試。
-- [`docs/CHANGELOG.zh-TW.md`](docs/CHANGELOG.zh-TW.md)／[`docs/CHANGELOG.md`](docs/CHANGELOG.md)：雙語變更紀錄。
+- [`docs/CHANGELOG.zh-TW.md`](docs/CHANGELOG.zh-TW.md)：繁中變更紀錄。
 - `examples/`：去除個人路徑的範例；不是目前電腦上的啟用設定。
 - `AGENTS.md`、`CONTENT-SPEC.md`、`CHECKLIST.md`：專案規則、範圍及發布檢查。
 
@@ -78,11 +76,11 @@ Codex 安裝。
 
 ## 快速測試
 
-1. 閱讀[繁中設定說明](docs/CONFIGURATION.zh-TW.md)或 [英文版設定說明](docs/CONFIGURATION.md)。
+1. 閱讀[繁中設定說明](docs/CONFIGURATION.zh-TW.md)。
 2. 修改前先備份個人 Codex Home。
 3. 確認目前 Codex 版本與支援的 Agent schema 後，才安裝範例設定。
-4. 閱讀[繁中測試說明](docs/TESTING.zh-TW.md)或 [英文版測試說明](docs/TESTING.md)，
-   再開一個新的 Codex task，使用精確指令搭配無害的唯讀工作。
+4. 閱讀[繁中測試說明](docs/TESTING.zh-TW.md)，再開一個新的 Codex task，使用精確
+   指令搭配無害的唯讀工作。
 
 繁中指令範例：
 

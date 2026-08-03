@@ -17,8 +17,6 @@ English aliases are exactly `call sol high` and `summon sol xhigh`.
 
 The two English commands use different verbs and tier tokens. The distinction
 is enforced by literal matching, not by visual similarity or semantic inference.
-The Traditional Chinese aliases are documented in
-[CONFIGURATION.zh-TW.md](CONFIGURATION.zh-TW.md).
 
 ## Choosing the tier
 
