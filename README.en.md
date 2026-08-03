@@ -18,8 +18,8 @@ This repository documents a two-level, explicit delegation setup for Codex:
 
 The commands are single-task controls. They do not permanently change the
 primary model, effort, or speed setting. Matching is literal: do not use fuzzy,
-substring, punctuation-normalized, or semantic matching. None of the four
-commands may activate another command.
+substring, punctuation-normalized, or semantic matching. The four commands
+must never activate one another.
 
 The English aliases intentionally use `call` for the high tier and `summon`
 for the extra-high tier. The explicit `sol high` and `sol xhigh` tokens keep the

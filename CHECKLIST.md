@@ -29,7 +29,7 @@
 - [ ] `sol_high.toml` parses with Python `tomllib`.
 - [ ] `sol_xhigh.toml` parses with Python `tomllib`.
 - [ ] Exact-match collision checks pass.
-- [ ] Positive activation tests pass for both commands.
+- [ ] Positive activation tests pass for all four commands.
 - [ ] Negative near-match tests do not activate either agent.
 - [ ] Parent `/status` or equivalent confirms return to the normal parent task.
 - [ ] Service-tier claims are limited to observable evidence.
