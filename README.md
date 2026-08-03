@@ -68,8 +68,11 @@ Agent 重複做同一件事。只有在使用者清楚劃分兩個互不重疊�
 ## 專案內容
 
 - `SOL_DELEGATION_SETUP_REQUEST.md`：保留原始設定需求；它是歷史快照。
-- `docs/CONFIGURATION.md`：檔案配置與安全安裝說明。
-- `docs/TESTING.md`：正向、負向及回到預設設定的測試方式。
+- [`docs/CONFIGURATION.zh-TW.md`](docs/CONFIGURATION.zh-TW.md)：繁中檔案配置與安全安裝說明。
+- [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md)：英文設定與安全安裝說明。
+- [`docs/TESTING.zh-TW.md`](docs/TESTING.zh-TW.md)：繁中正向、負向及回到預設測試。
+- [`docs/TESTING.md`](docs/TESTING.md)：英文正向、負向及回到預設設定的測試。
+- [`docs/CHANGELOG.zh-TW.md`](docs/CHANGELOG.zh-TW.md)／[`docs/CHANGELOG.md`](docs/CHANGELOG.md)：雙語變更紀錄。
 - `examples/`：去除個人路徑的範例；不是目前電腦上的啟用設定。
 - `AGENTS.md`、`CONTENT-SPEC.md`、`CHECKLIST.md`：專案規則、範圍及發布檢查。
 
@@ -78,17 +81,33 @@ Codex 安裝。
 
 ## 快速測試
 
-先閱讀 [docs/TESTING.md](docs/TESTING.md)，再開一個新的 Codex task，使用
-精確指令搭配無害的唯讀工作，例如：
+1. 閱讀[繁中設定說明](docs/CONFIGURATION.zh-TW.md)或 [English configuration guide](docs/CONFIGURATION.md)。
+2. 修改前先備份個人 Codex Home。
+3. 確認目前 Codex 版本與支援的 Agent schema 後，才安裝範例設定。
+4. 閱讀[繁中測試說明](docs/TESTING.zh-TW.md)或 [English testing guide](docs/TESTING.md)，
+   再開一個新的 Codex task，使用精確指令搭配無害的唯讀工作。
+
+繁中指令範例：
 
 ```text
 有請高手處理。請讀取 README.md，列出本專案的三個主要檔案，不要修改任何檔案。
 ```
 
-測試時要確認實際子 Agent 名稱、模型與推理強度。若客戶端沒有提供 service
-tier 遙測，就明確標示「未觀測到」，不要推測或宣稱已驗證。
+英文指令範例：
 
-## 安全
+```text
+call sol high. Read README.md and list three main files. Do not modify any file.
+```
+
+子代理回報完成後，主代理應接收結果並恢復控制；下一項任務必須再次輸入完整暗號。
+測試時要確認實際子 Agent 名稱、模型與推理強度。若客戶端沒有提供 service-tier
+遙測，就明確標示「未觀測到」，不要推測或宣稱已驗證。
+
+## 公開 repository 安全
 
 不要提交 API key、token、私有 log、個人絕對路徑或個人 Codex home 內容。
 詳見 [SECURITY.md](SECURITY.md)。
+
+## 授權
+
+本文件與設定範例採用 MIT License。詳見 [LICENSE](LICENSE)。

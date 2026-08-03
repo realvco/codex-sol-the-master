@@ -1,0 +1,27 @@
+# 變更紀錄
+
+<p align="center"><a href="./CHANGELOG.zh-TW.md">繁體中文</a> · <a href="./CHANGELOG.md">English</a></p>
+
+## 目前公開契約
+
+目前專案支援四個精確暗號：
+
+- `call sol high` → `sol_high`
+- `summon sol xhigh` → `sol_xhigh`
+- `有請高手處理` → `sol_high`
+- `恭請高高手處理` → `sol_xhigh`
+
+四個暗號都只授權單一完整任務，不會永久切換主代理。任務完成、失敗、受阻或
+停止後，控制權回到原本主代理；下一項任務必須再次輸入完整暗號。
+
+## 文件狀態
+
+- `SOL_DELEGATION_SETUP_REQUEST.md` 是最初需求的原始快照，保持不變以供稽核。
+- `README.md` 是繁體中文主入口；`README.en.md` 是英文主入口。
+- `docs/CONFIGURATION.zh-TW.md` 與 `docs/CONFIGURATION.md` 是雙語設定說明。
+- `docs/TESTING.zh-TW.md` 與 `docs/TESTING.md` 是雙語測試說明。
+
+## 速度與驗證原則
+
+`high` 與 `xhigh` 代表推理深度，不代表 Fast。若客戶端沒有顯示 service-tier
+證據，文件與測試回報必須標示未觀測，不得把推定寫成已驗證。

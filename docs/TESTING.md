@@ -1,5 +1,7 @@
 # Testing and return to default
 
+<p align="center"><a href="./TESTING.zh-TW.md">繁體中文</a> · <a href="./TESTING.md">English</a></p>
+
 Run these tests in a new Codex task with a harmless read-only request. Record
 the client version and the evidence shown by the client.
 

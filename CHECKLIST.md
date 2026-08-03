@@ -10,6 +10,10 @@
       20px and `English` approximately 24px, and link to each other.
 - [ ] Language links are plain anchors without heading hover icons or unwanted
       underline decoration.
+- [ ] Configuration, testing, and changelog documents each have Traditional
+      Chinese and English companions with reciprocal language links.
+- [ ] The two testing guides contain equivalent positive, negative, collision,
+      return-to-default, and evidence-report sections.
 - [ ] `docs/CONFIGURATION.md` and both TOML examples agree on agent names,
       model, and effort.
 - [ ] The original request remains intact and is clearly marked as reference

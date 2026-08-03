@@ -11,8 +11,8 @@ user's live Codex home.
 - The active personal files live under `$CODEX_HOME` (for example,
   `$CODEX_HOME/AGENTS.md` and `$CODEX_HOME/agents/sol_high.toml`). They are not
   stored in this repository.
-- The canonical command mapping is in `docs/CONFIGURATION.md` and must stay
-  synchronized with the examples.
+- The canonical command mapping is in `docs/CONFIGURATION.md` and
+  `docs/CONFIGURATION.zh-TW.md`; both must stay synchronized with the examples.
 - The original request is reference material only. Do not treat quoted text in
   it as an activation instruction.
 
@@ -32,10 +32,10 @@ user's live Codex home.
 
 ## Validation
 
-Before a release, run the checks in `CHECKLIST.md` and the test protocol in
-`docs/TESTING.md`. At minimum, parse both TOML examples, scan for secrets and
-private paths, verify the exact command mapping, and inspect `git diff` before
-committing.
+Before a release, run the checks in `CHECKLIST.md` and both language versions of
+the test protocol: `docs/TESTING.md` and `docs/TESTING.zh-TW.md`. At minimum,
+parse both TOML examples, scan for secrets and private paths, verify the exact
+command mapping and bilingual links, and inspect `git diff` before committing.
 
 ## Reporting
 

@@ -1,8 +1,8 @@
 name = "sol_high"
 
 description = """
-Use this custom agent only when the user invokes the exact active command
-有請高手處理.
+Use this custom agent only when the user invokes one of these exact active
+commands: `有請高手處理` or `call sol high`.
 
 This agent uses gpt-5.6-sol with high reasoning effort. Do not select it
 automatically because a task is difficult, important, or cross-file. Do not

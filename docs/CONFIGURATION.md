@@ -1,5 +1,7 @@
 # Configuration
 
+<p align="center"><a href="./CONFIGURATION.zh-TW.md">繁體中文</a> · <a href="./CONFIGURATION.md">English</a></p>
+
 ## Canonical mapping
 
 The public contract is:

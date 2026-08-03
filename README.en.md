@@ -70,7 +70,7 @@ If both tiers are assigned to the same task, use only the higher-priority
 non-overlapping tasks may be assigned to different agents; if the boundary is
 unclear, give the complete task to `sol_xhigh`.
 
-### Scope and safety
+### Safety boundaries
 
 This repository is documentation and configuration examples, not an installer.
 Before applying the examples, check the Codex version and Agent TOML schema,
@@ -83,9 +83,11 @@ private logs, personal absolute paths, or a private Codex Home.
 - `SOL_DELEGATION_SETUP_REQUEST.md` — the original setup request preserved as
   supplied. It is an archival snapshot; the current command names are the
   ones in the table above.
-- `docs/CONFIGURATION.md` — the intended file layout and safe installation
-  guidance.
-- `docs/TESTING.md` — positive, negative, and return-to-default tests.
+- `docs/CONFIGURATION.md` — the English file layout and safe-install guide.
+- `docs/CONFIGURATION.zh-TW.md` — the Traditional Chinese configuration guide.
+- `docs/TESTING.md` — English positive, negative, and return-to-default tests.
+- `docs/TESTING.zh-TW.md` — Traditional Chinese testing and recovery guide.
+- `docs/CHANGELOG.md` and `docs/CHANGELOG.zh-TW.md` — bilingual change records.
 - `examples/` — sanitized example files; these are templates, not active
   personal configuration.
 - `AGENTS.md`, `CONTENT-SPEC.md`, and `CHECKLIST.md` — project operating rules,
@@ -96,11 +98,11 @@ plugin and it does not automatically modify a user's Codex installation.
 
 ## Quick start
 
-1. Read [Configuration](docs/CONFIGURATION.md).
+1. Read [Configuration](docs/CONFIGURATION.md) or the [繁體中文 configuration guide](docs/CONFIGURATION.zh-TW.md).
 2. Back up the personal Codex home before making changes.
 3. Install the examples only after checking the current Codex version and the
    supported agent schema for that version.
-4. Start a new task and run the tests in [Testing](docs/TESTING.md).
+4. Start a new task and run the tests in [Testing](docs/TESTING.md) or [繁體中文測試說明](docs/TESTING.zh-TW.md).
 
 Use the exact command as an active instruction followed by a harmless,
 read-only task. For example:
@@ -113,7 +115,7 @@ The parent task should resume after the delegated child reports completion.
 When the client does not expose service-tier telemetry, report that limitation
 instead of claiming a tier that was not observed.
 
-## Scope and safety
+## Public repository safety
 
 The setup is deliberately opt-in. Difficulty, importance, file count, or a
 request for deeper reasoning is not an activation command. Quoted examples,

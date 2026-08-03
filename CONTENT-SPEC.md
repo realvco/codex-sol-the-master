@@ -38,7 +38,12 @@ limitation, not permission to infer Standard or Fast.
 
 - `README.md` is the primary Traditional Chinese entry page.
 - `README.en.md` is the English companion page.
-- Both pages show only two centered text links at the very top, before the title
+- `docs/CONFIGURATION.zh-TW.md` and `docs/CONFIGURATION.md` are paired
+  configuration guides with reciprocal language links.
+- `docs/TESTING.zh-TW.md` and `docs/TESTING.md` are paired testing guides with
+  equivalent positive, negative, collision, and return-to-default coverage.
+- `docs/CHANGELOG.zh-TW.md` and `docs/CHANGELOG.md` are paired change records.
+- Both root README pages show only two centered text links at the very top, before the title
   and long-form content: `繁體中文` at approximately 20px and `English` at
   approximately 24px.
 - The two text links point to the two README files; image badges are not used as
