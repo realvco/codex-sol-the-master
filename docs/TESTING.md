@@ -1,6 +1,6 @@
 # Testing and return to default
 
-<p align="center"><a href="./TESTING.zh-TW.md">Traditional Chinese</a> · <mark><strong>English</strong></mark></p>
+<p align="center"><a href="./TESTING.zh-TW.md">Traditional Chinese</a> · <strong>English</strong></p>
 
 Run these tests in a new Codex task with a harmless read-only request. Record
 the client version and the evidence shown by the client.

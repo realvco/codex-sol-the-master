@@ -46,8 +46,8 @@ limitation, not permission to infer Standard or Fast.
   documentation set. Cross-language navigation is limited to the top language selector.
 - Both root README pages show two centered language labels at the very top, before the title
   and long-form content. The current language is plain, non-clickable text; the alternate
-  language remains the link. The `English` label uses GitHub-supported `<mark>` and
-  `<strong>` markup so its availability is obvious without a small keycap or stripped CSS.
+  language remains the link. The `English` label uses GitHub-supported `<strong>` markup
+  so its availability is obvious without a small keycap, background, or stripped CSS.
 - Use plain text and anchor markup rather than `h2`/`h3` wrappers so GitHub does not add
   heading hover anchors or a clipped hash icon. Keep the root README scannable and move
   detailed procedures into `docs/`.

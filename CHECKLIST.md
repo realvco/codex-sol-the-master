@@ -8,7 +8,7 @@
 - [ ] `README.md` is the Traditional Chinese primary page and `README.en.md` is
       the English companion page.
 - [ ] Both README files expose the same top language labels, with the current language as
-      plain text and `English` visibly emphasized using `<mark><strong>English</strong></mark>`;
+      plain text and `English` visibly emphasized using `<strong>English</strong>`;
       the alternate language remains the link.
 - [ ] Language links are plain anchors without heading hover icons or unwanted
       underline decoration.
