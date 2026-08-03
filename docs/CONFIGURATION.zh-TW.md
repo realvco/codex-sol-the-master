@@ -1,6 +1,6 @@
 # 設定說明
 
-<p align="center"><a href="./CONFIGURATION.zh-TW.md" style="text-decoration: none;">🇹🇼 繁體中文</a> · <a href="./CONFIGURATION.md" style="text-decoration: none;">🇬🇧 English</a></p>
+<p align="center"><a href="./CONFIGURATION.zh-TW.md" style="font-size: 20px; text-decoration: none;">繁體中文</a> · <a href="./CONFIGURATION.md" style="display: inline-block; font-size: 24px; text-decoration: none; border: 1px solid #0969da; border-radius: 6px; padding: 4px 10px; color: #0969da;">English</a></p>
 
 ## 正式指令對應
 
