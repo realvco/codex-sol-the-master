@@ -1,6 +1,6 @@
 # 測試與回到預設設定
 
-<p align="center"><a href="./TESTING.zh-TW.md" style="font-size: 20px; text-decoration: none;">繁體中文</a> · <a href="./TESTING.md" style="display: inline-block; font-size: 24px; text-decoration: none; border: 1px solid #0969da; border-radius: 6px; padding: 4px 10px; color: #0969da;">English</a></p>
+<p align="center"><a href="./TESTING.zh-TW.md">繁體中文</a> · <a href="./TESTING.md"><kbd><strong>English</strong></kbd></a></p>
 
 請在新的 Codex task 中，以無害的唯讀工作執行測試，並記錄客戶端實際顯示的證據。
 

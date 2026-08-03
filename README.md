@@ -1,7 +1,7 @@
 <table align="center">
   <tr>
-    <td align="center"><a href="./README.md" style="font-size: 20px; text-decoration: none;">繁體中文</a></td>
-    <td align="center"><a href="./README.en.md" style="display: inline-block; font-size: 24px; text-decoration: none; border: 1px solid #0969da; border-radius: 6px; padding: 4px 10px; color: #0969da;">English</a></td>
+    <td align="center"><a href="./README.md">繁體中文</a></td>
+    <td align="center"><a href="./README.en.md"><kbd><strong>English</strong></kbd></a></td>
   </tr>
 </table>
 
