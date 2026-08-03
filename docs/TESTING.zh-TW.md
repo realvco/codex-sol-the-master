@@ -1,6 +1,6 @@
 # 測試與回到預設設定
 
-<p align="center"><a href="./TESTING.zh-TW.md">繁體中文</a> · <a href="./TESTING.md">English</a></p>
+<p align="center"><a href="./TESTING.zh-TW.md">繁體中文</a> · <a href="./TESTING.md">英文版</a></p>
 
 請在新的 Codex task 中，以無害的唯讀工作執行測試，並記錄客戶端實際顯示的證據。
 
@@ -23,7 +23,7 @@ service-tier 狀態。如果沒有 tier 訊號，記錄「service tier 未觀測
 
 ## 2. 正向測試
 
-在四個獨立 task 中，分別使用以下完整暗號：
+在兩個獨立 task 中，分別使用以下完整暗號：
 
 ```text
 有請高手處理。請讀取 README.md 並回報標題，不要修改任何檔案。
@@ -31,14 +31,6 @@ service-tier 狀態。如果沒有 tier 訊號，記錄「service tier 未觀測
 
 ```text
 恭請高高手處理。請讀取 README.md 並回報標題，不要修改任何檔案。
-```
-
-```text
-call sol high. Read README.md and report its title. Do not modify any file.
-```
-
-```text
-summon sol xhigh. Read README.md and report its title. Do not modify any file.
 ```
 
 預期證據：
@@ -58,8 +50,6 @@ summon sol xhigh. Read README.md and report its title. Do not modify any file.
 
 - `有請高手處理嗎？` 作為問題或引用，而不是主動指令。
 - 只輸入 `高手處理` 或 `高高手處理`。
-- `call sol high?` 作為問題，而不是主動指令。
-- 只提到 `sol high` 或 `sol xhigh`，沒有完整暗號。
 - 翻譯、解釋、編輯文件時提到任一暗號。
 - 只說「請用更深的推理」或「使用更強模型」。
 

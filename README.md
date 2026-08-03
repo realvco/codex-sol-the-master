@@ -1,7 +1,7 @@
 <table align="center">
   <tr>
     <td align="center"><a href="./README.md" style="font-size: 20px; text-decoration: none;">繁體中文</a></td>
-    <td align="center"><a href="./README.en.md" style="font-size: 24px; text-decoration: none;">English</a></td>
+    <td align="center"><a href="./README.en.md" style="font-size: 24px; text-decoration: none;">英文版</a></td>
   </tr>
 </table>
 
@@ -11,14 +11,12 @@
 
 | 精確指令 | 自訂 Agent | 模型 | 推理強度 |
 | --- | --- | --- | --- |
-| `call sol high` | `sol_high` | `gpt-5.6-sol` | `high` |
-| `summon sol xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 | `有請高手處理` | `sol_high` | `gpt-5.6-sol` | `high` |
 | `恭請高高手處理` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 
 指令只作用於目前這一項任務，不會永久改變主 Agent 的模型、推理強度或速度
 設定。辨識必須採用逐字精確比對；不得使用模糊比對、子字串比對、標點正規化
-或語意相似度。四個指令不可互相誤觸發。
+或語意相似度。兩個中文指令不可互相誤觸發。
 
 ## 核心設計
 
@@ -50,9 +48,8 @@ Fast；如果客戶端沒有提供可觀測的 service-tier 證據，文件與�
 
 ### 精確匹配與優先級
 
-四個暗號都採完整字串、逐字精確匹配。引用、文件內容、翻譯要求、否定句、只
-輸入部分片語，以及「請深入分析」等一般請求都不會觸發。英文暗號的正式寫法
-是全小寫；`call sol high` 與 `summon sol xhigh` 不接受自行改寫。
+兩個中文暗號都採完整字串、逐字精確匹配。引用、文件內容、翻譯要求、否定句、
+只輸入部分片語，以及「請深入分析」等一般請求都不會觸發。
 
 如果同一項任務同時指定兩個層級，預設只使用優先級較高的 `sol_xhigh`，避免兩個
 Agent 重複做同一件事。只有在使用者清楚劃分兩個互不重疊的子任務時，才可分別
@@ -69,9 +66,9 @@ Agent 重複做同一件事。只有在使用者清楚劃分兩個互不重疊�
 
 - `SOL_DELEGATION_SETUP_REQUEST.md`：保留原始設定需求；它是歷史快照。
 - [`docs/CONFIGURATION.zh-TW.md`](docs/CONFIGURATION.zh-TW.md)：繁中檔案配置與安全安裝說明。
-- [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md)：英文設定與安全安裝說明。
+- [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md)：英文版設定與安全安裝說明。
 - [`docs/TESTING.zh-TW.md`](docs/TESTING.zh-TW.md)：繁中正向、負向及回到預設測試。
-- [`docs/TESTING.md`](docs/TESTING.md)：英文正向、負向及回到預設設定的測試。
+- [`docs/TESTING.md`](docs/TESTING.md)：英文版正向、負向及回到預設設定的測試。
 - [`docs/CHANGELOG.zh-TW.md`](docs/CHANGELOG.zh-TW.md)／[`docs/CHANGELOG.md`](docs/CHANGELOG.md)：雙語變更紀錄。
 - `examples/`：去除個人路徑的範例；不是目前電腦上的啟用設定。
 - `AGENTS.md`、`CONTENT-SPEC.md`、`CHECKLIST.md`：專案規則、範圍及發布檢查。
@@ -81,22 +78,16 @@ Codex 安裝。
 
 ## 快速測試
 
-1. 閱讀[繁中設定說明](docs/CONFIGURATION.zh-TW.md)或 [English configuration guide](docs/CONFIGURATION.md)。
+1. 閱讀[繁中設定說明](docs/CONFIGURATION.zh-TW.md)或 [英文版設定說明](docs/CONFIGURATION.md)。
 2. 修改前先備份個人 Codex Home。
 3. 確認目前 Codex 版本與支援的 Agent schema 後，才安裝範例設定。
-4. 閱讀[繁中測試說明](docs/TESTING.zh-TW.md)或 [English testing guide](docs/TESTING.md)，
+4. 閱讀[繁中測試說明](docs/TESTING.zh-TW.md)或 [英文版測試說明](docs/TESTING.md)，
    再開一個新的 Codex task，使用精確指令搭配無害的唯讀工作。
 
 繁中指令範例：
 
 ```text
 有請高手處理。請讀取 README.md，列出本專案的三個主要檔案，不要修改任何檔案。
-```
-
-英文指令範例：
-
-```text
-call sol high. Read README.md and list three main files. Do not modify any file.
 ```
 
 子代理回報完成後，主代理應接收結果並恢復控制；下一項任務必須再次輸入完整暗號。
@@ -110,4 +101,4 @@ call sol high. Read README.md and list three main files. Do not modify any file.
 
 ## 授權
 
-本文件與設定範例採用 MIT License。詳見 [LICENSE](LICENSE)。
+本文件與設定範例採用 MIT 授權。詳見 [LICENSE](LICENSE)。

@@ -1,24 +1,19 @@
 # 設定說明
 
-<p align="center"><a href="./CONFIGURATION.zh-TW.md">繁體中文</a> · <a href="./CONFIGURATION.md">English</a></p>
+<p align="center"><a href="./CONFIGURATION.zh-TW.md">繁體中文</a> · <a href="./CONFIGURATION.md">英文版</a></p>
 
 ## 正式指令對應
 
 目前公開契約如下：
 
 ```text
-call sol high     ->  sol_high   ->  gpt-5.6-sol / high
-summon sol xhigh  ->  sol_xhigh  ->  gpt-5.6-sol / xhigh
 有請高手處理      ->  sol_high   ->  gpt-5.6-sol / high
 恭請高高手處理    ->  sol_xhigh  ->  gpt-5.6-sol / xhigh
 ```
 
-上方空格只是為了方便閱讀；實際暗號是完整片語，不要求前後空白。英文暗號
-必須使用全小寫的 `call sol high` 與 `summon sol xhigh`。
-
-中文暗號使用「有請」與「恭請」以及「高手」與「高高手」的多重差異；英文暗號
-則使用不同動詞與層級 token。四個暗號都必須依完整字串逐字比對，不依賴視覺
-相似度或語意推測。
+上方空格只是為了方便閱讀；實際暗號是完整片語，不要求前後空白。中文暗號使用
+「有請」與「恭請」以及「高手」與「高高手」的多重差異，必須依完整字串逐字比對，
+不依賴視覺相似度或語意推測。
 
 ## 如何選擇層級
 

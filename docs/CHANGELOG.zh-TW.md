@@ -1,17 +1,15 @@
 # 變更紀錄
 
-<p align="center"><a href="./CHANGELOG.zh-TW.md">繁體中文</a> · <a href="./CHANGELOG.md">English</a></p>
+<p align="center"><a href="./CHANGELOG.zh-TW.md">繁體中文</a> · <a href="./CHANGELOG.md">英文版</a></p>
 
 ## 目前公開契約
 
-目前專案支援四個精確暗號：
+繁中頁面目前列出兩個精確暗號：
 
-- `call sol high` → `sol_high`
-- `summon sol xhigh` → `sol_xhigh`
 - `有請高手處理` → `sol_high`
 - `恭請高高手處理` → `sol_xhigh`
 
-四個暗號都只授權單一完整任務，不會永久切換主代理。任務完成、失敗、受阻或
+這兩個暗號都只授權單一完整任務，不會永久切換主代理。任務完成、失敗、受阻或
 停止後，控制權回到原本主代理；下一項任務必須再次輸入完整暗號。
 
 ## 文件狀態
