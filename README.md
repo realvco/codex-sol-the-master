@@ -1,9 +1,10 @@
-<h1 align="center">Codex Sol 委派設定</h1>
+<h2 align="center">
+  <a href="./README.md">繁體中文</a>
+  &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
+  <a href="./README.en.md">English</a>
+</h2>
 
-<p align="center">
-  <a href="./README.md"><img alt="繁體中文主版本" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-%E4%B8%BB%E7%89%88%E6%9C%AC-1f6feb?style=for-the-badge"></a>
-  <a href="./README.en.md"><img alt="English version" src="https://img.shields.io/badge/English-README.en.md-6f42c1?style=for-the-badge"></a>
-</p>
+<h1 align="center">Codex Sol 委派設定</h1>
 
 本專案整理一套「明確指令、單次委派」的兩層 Codex Sol 設定。
 

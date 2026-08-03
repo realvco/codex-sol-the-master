@@ -5,8 +5,8 @@
 - [ ] README and Chinese README agree on the two exact commands.
 - [ ] `README.md` is the Traditional Chinese primary page and `README.en.md` is
       the English companion page.
-- [ ] Both README files expose the same clickable language selector near the
-      top and link to each other.
+- [ ] Both README files expose the same large text links `繁體中文` and
+      `English` at the top and link to each other.
 - [ ] `docs/CONFIGURATION.md` and both TOML examples agree on agent names,
       model, and effort.
 - [ ] The original request remains intact and is clearly marked as reference
