@@ -11,8 +11,8 @@ This repository documents a two-level, explicit delegation setup for Codex:
 
 | Exact command | Custom agent | Model | Reasoning |
 | --- | --- | --- | --- |
-| `call sol high` | `sol_high` | `gpt-5.6-sol` | `high` |
-| `summon sol xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
+| `call high` | `sol_high` | `gpt-5.6-sol` | `high` |
+| `summon xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 
 The English aliases are single-task controls. They do not permanently change
 the primary model, effort, or speed setting. Matching is literal: do not use
@@ -20,8 +20,8 @@ fuzzy, substring, punctuation-normalized, or semantic matching. The two English
 aliases must never activate one another.
 
 The English aliases intentionally use `call` for the high tier and `summon`
-for the extra-high tier. The explicit `sol high` and `sol xhigh` tokens keep the
-mapping visible while remaining short.
+for the extra-high tier. The explicit `high` and `xhigh` tokens keep the mapping
+visible while remaining short.
 
 ## Design principles
 
@@ -104,7 +104,7 @@ Use the exact command as an active instruction followed by a harmless,
 read-only task. For example:
 
 ```text
-call sol high. Read README.md and list three main files. Do not modify any file.
+call high. Read README.md and list three main files. Do not modify any file.
 ```
 
 The parent task should resume after the delegated child reports completion.

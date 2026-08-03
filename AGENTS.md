@@ -18,7 +18,7 @@ user's live Codex home.
 
 ## Editing rules
 
-- Preserve the exact English aliases `call sol high` and `summon sol xhigh`.
+- Preserve the exact English aliases `call high` and `summon xhigh`.
 - The Traditional Chinese aliases are maintained in `README.md` and the
   `.zh-TW.md` companion documents; do not rewrite them while editing English
   documents.

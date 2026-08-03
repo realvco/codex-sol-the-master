@@ -1,6 +1,6 @@
 # 測試與回到預設設定
 
-<p align="center"><strong>繁體中文</strong> · <a href="./TESTING.md"><strong>English</strong></a></p>
+<p align="center">繁體中文 · <a href="./TESTING.md"><strong>English</strong></a></p>
 
 請在新的 Codex task 中，以無害的唯讀工作執行測試，並記錄客戶端實際顯示的證據。
 

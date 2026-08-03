@@ -6,8 +6,8 @@
 
 The active command names in this repository are:
 
-- `call sol high` → `sol_high`
-- `summon sol xhigh` → `sol_xhigh`
+- `call high` → `sol_high`
+- `summon xhigh` → `sol_xhigh`
 
 The preserved `SOL_DELEGATION_SETUP_REQUEST.md` is the original request
 snapshot and predates that wording decision. It remains unchanged so that the

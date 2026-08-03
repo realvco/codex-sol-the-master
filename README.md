@@ -1,6 +1,6 @@
 <table align="center">
   <tr>
-    <td align="center"><strong>繁體中文</strong></td>
+    <td align="center">繁體中文</td>
     <td align="center"><a href="./README.en.md"><strong>English</strong></a></td>
   </tr>
 </table>

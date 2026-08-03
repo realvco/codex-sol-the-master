@@ -9,9 +9,9 @@ automatically loaded from this repository.
 
 Use literal, exact matching only:
 
-- `call sol high` delegates the current task to `sol_high` (`gpt-5.6-sol`,
+- `call high` delegates the current task to `sol_high` (`gpt-5.6-sol`,
   `high`).
-- `summon sol xhigh` delegates the current task to `sol_xhigh` (`gpt-5.6-sol`,
+- `summon xhigh` delegates the current task to `sol_xhigh` (`gpt-5.6-sol`,
   `xhigh`).
 
 This English template intentionally contains only the English aliases.

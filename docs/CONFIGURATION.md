@@ -7,13 +7,13 @@
 The public contract is:
 
 ```text
-call sol high     ->  sol_high   ->  gpt-5.6-sol / high
-summon sol xhigh  ->  sol_xhigh  ->  gpt-5.6-sol / xhigh
+call high         ->  sol_high   ->  gpt-5.6-sol / high
+summon xhigh      ->  sol_xhigh  ->  gpt-5.6-sol / xhigh
 ```
 
 The spaces above are visual separators only. The command itself is the exact
 phrase inside the code span, with no required leading or trailing space. The
-English aliases are exactly `call sol high` and `summon sol xhigh`.
+English aliases are exactly `call high` and `summon xhigh`.
 
 The two English commands use different verbs and tier tokens. The distinction
 is enforced by literal matching, not by visual similarity or semantic inference.

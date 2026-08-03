@@ -29,11 +29,11 @@ Before using a delegation command:
 Use each exact command as an active instruction in separate tasks:
 
 ```text
-call sol high. Read README.md and report its title. Do not modify any file.
+call high. Read README.md and report its title. Do not modify any file.
 ```
 
 ```text
-summon sol xhigh. Read README.md and report its title. Do not modify any file.
+summon xhigh. Read README.md and report its title. Do not modify any file.
 ```
 
 Expected evidence:
@@ -53,8 +53,8 @@ presenting the task outcome.
 Run these without an exact active command and verify that no custom agent is
 spawned:
 
-- `call sol high?` as a question, not an instruction;
-- a sentence containing only `sol high` or `sol xhigh`;
+- `call high?` as a question, not an instruction;
+- a sentence containing only `high` or `xhigh`;
 - a paraphrase such as “use deeper reasoning”;
 - a documentation or translation request that mentions either phrase.
 

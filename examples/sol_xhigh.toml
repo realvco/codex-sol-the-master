@@ -2,11 +2,11 @@ name = "sol_xhigh"
 
 description = """
 Use this custom agent only when the user invokes one of these exact active
-command: `summon sol xhigh`.
+command: `summon xhigh`.
 
 This agent uses gpt-5.6-sol with xhigh reasoning effort. Do not select it
 automatically because a task is difficult, important, or cross-file. Do not
-request Fast service tier. The exact English alias `summon sol xhigh` is also
+request Fast service tier. The exact English alias `summon xhigh` is also
 valid for this agent.
 """
 
