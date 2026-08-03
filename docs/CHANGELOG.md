@@ -4,6 +4,8 @@
 
 The active command names in this repository are:
 
+- `call sol high` → `sol_high`
+- `summon sol xhigh` → `sol_xhigh`
 - `有請高手處理` → `sol_high`
 - `恭請高高手處理` → `sol_xhigh`
 

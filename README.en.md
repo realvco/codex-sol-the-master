@@ -11,13 +11,19 @@ This repository documents a two-level, explicit delegation setup for Codex:
 
 | Exact command | Custom agent | Model | Reasoning |
 | --- | --- | --- | --- |
+| `call sol high` | `sol_high` | `gpt-5.6-sol` | `high` |
+| `summon sol xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 | `有請高手處理` | `sol_high` | `gpt-5.6-sol` | `high` |
 | `恭請高高手處理` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 
 The commands are single-task controls. They do not permanently change the
 primary model, effort, or speed setting. Matching is literal: do not use fuzzy,
-substring, punctuation-normalized, or semantic matching. The two commands must
-never activate one another.
+substring, punctuation-normalized, or semantic matching. None of the four
+commands may activate another command.
+
+The English aliases intentionally use `call` for the high tier and `summon`
+for the extra-high tier. The explicit `sol high` and `sol xhigh` tokens keep the
+mapping visible while remaining short.
 
 ## What is included
 
@@ -47,7 +53,7 @@ Use the exact command as an active instruction followed by a harmless,
 read-only task. For example:
 
 ```text
-有請高手處理。請讀取 README.md，列出本專案的三個主要檔案，不要修改任何檔案。
+call sol high. Read README.md and list three main files. Do not modify any file.
 ```
 
 The parent task should resume after the delegated child reports completion.

@@ -5,13 +5,15 @@
 The public contract is:
 
 ```text
+call sol high     ->  sol_high   ->  gpt-5.6-sol / high
+summon sol xhigh  ->  sol_xhigh  ->  gpt-5.6-sol / xhigh
 有請高手處理  ->  sol_high   ->  gpt-5.6-sol / high
 恭請高高手處理  ->  sol_xhigh  ->  gpt-5.6-sol / xhigh
 ```
 
 The spaces above are visual separators only. The command itself is the exact
-Chinese phrase inside the code span, with no required leading or trailing
-space.
+phrase inside the code span, with no required leading or trailing space. The
+English aliases are exactly `call sol high` and `summon sol xhigh`.
 
 The first phrase and second phrase differ in more than one meaningful visual
 cue: `有請` versus `恭請`, and `高手` versus `高高手`. The distinction is still

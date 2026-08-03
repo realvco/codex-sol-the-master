@@ -2,7 +2,8 @@
 
 ## Content
 
-- [ ] README and Chinese README agree on the two exact commands.
+- [ ] README and English companion agree on all four exact commands (two Chinese
+      commands and two English aliases).
 - [ ] `README.md` is the Traditional Chinese primary page and `README.en.md` is
       the English companion page.
 - [ ] Both README files expose the same top links, with `繁體中文` approximately

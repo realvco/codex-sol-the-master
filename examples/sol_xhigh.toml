@@ -6,7 +6,8 @@ Use this custom agent only when the user invokes the exact active command
 
 This agent uses gpt-5.6-sol with xhigh reasoning effort. Do not select it
 automatically because a task is difficult, important, or cross-file. Do not
-request Fast service tier.
+request Fast service tier. The exact English alias `summon sol xhigh` is also
+valid for this agent.
 """
 
 model = "gpt-5.6-sol"

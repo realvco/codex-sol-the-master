@@ -13,6 +13,10 @@ Use literal, exact matching only:
   `high`).
 - `恭請高高手處理` delegates the current task to `sol_xhigh` (`gpt-5.6-sol`,
   `xhigh`).
+- `call sol high` delegates the current task to `sol_high` (`gpt-5.6-sol`,
+  `high`).
+- `summon sol xhigh` delegates the current task to `sol_xhigh` (`gpt-5.6-sol`,
+  `xhigh`).
 
 Do not match substrings, punctuation-normalized variants, semantic similarities,
 quoted examples, or negated instructions. Do not request Fast service tier. The

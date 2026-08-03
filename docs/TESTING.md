@@ -23,6 +23,14 @@ Use each exact command as an active instruction in separate tasks:
 恭請高高手處理。請讀取 README.md 並回報標題，不要修改任何檔案。
 ```
 
+```text
+call sol high. Read README.md and report its title. Do not modify any file.
+```
+
+```text
+summon sol xhigh. Read README.md and report its title. Do not modify any file.
+```
+
 Expected evidence:
 
 - the child is the actual custom agent `sol_high` or `sol_xhigh`;
@@ -39,16 +47,18 @@ spawned:
 - `有請高手處理嗎？` as a quoted question, not an instruction;
 - a sentence containing only `高手處理`;
 - a sentence containing only `高高手處理`;
+- `call sol high?` as a question, not an instruction;
+- a sentence containing only `sol high` or `sol xhigh`;
 - a paraphrase such as “請用更深的推理”；
 - a documentation or translation request that mentions either phrase.
 
 The routing guard is literal. Do not “correct” near matches into an exact
 command.
 
-## 4. Both commands in one task
+## 4. Multiple commands in one task
 
-If both exact commands are actively assigned to the same task, expected policy
-is to use only `sol_xhigh`, not to run both agents on the same work.
+If multiple exact commands are actively assigned to the same task, expected
+policy is to use only `sol_xhigh`, not to run both agents on the same work.
 
 ## 5. Return-to-default verification
 

@@ -10,12 +10,15 @@
 
 | Command | Agent | Model | Effort | Speed policy |
 | --- | --- | --- | --- | --- |
+| `call sol high` | `sol_high` | `gpt-5.6-sol` | `high` | Normal/default; never request Fast |
+| `summon sol xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` | Normal/default; never request Fast |
 | `有請高手處理` | `sol_high` | `gpt-5.6-sol` | `high` | Normal/default; never request Fast |
 | `恭請高高手處理` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` | Normal/default; never request Fast |
 
 These are exact active commands. Similar wording, a partial phrase, quoted
 text, documentation, examples, or a request for more depth do not activate an
-agent.
+agent. The English aliases are `call sol high` and `summon sol xhigh`; they are
+not translations that may be paraphrased at runtime.
 
 ## Operating modes
 
