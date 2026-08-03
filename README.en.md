@@ -1,8 +1,8 @@
-<h2 align="center">
+<h3 align="center">
   <a href="./README.md">繁體中文</a>
   &nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
   <a href="./README.en.md">English</a>
-</h2>
+</h3>
 
 <h1 align="center">Codex Sol delegation</h1>
 

@@ -35,7 +35,7 @@ limitation, not permission to infer Standard or Fast.
 
 - `README.md` is the primary Traditional Chinese entry page.
 - `README.en.md` is the English companion page.
-- Both pages show only two large, centered text links — `繁體中文` and
+- Both pages show only two centered, approximately 20px text links — `繁體中文` and
   `English` — at the very top, before the title and long-form content.
 - The two text links point to the two README files; image badges are not used as
   the language selector.
