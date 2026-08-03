@@ -1,6 +1,6 @@
 # Configuration
 
-<p align="center"><a href="./CONFIGURATION.zh-TW.md">Traditional Chinese</a> · <a href="./CONFIGURATION.md">English</a></p>
+<p align="center"><a href="./CONFIGURATION.zh-TW.md" style="text-decoration: none;">🇹🇼 Traditional Chinese</a> · <a href="./CONFIGURATION.md" style="text-decoration: none;">🇬🇧 English</a></p>
 
 ## Canonical mapping
 

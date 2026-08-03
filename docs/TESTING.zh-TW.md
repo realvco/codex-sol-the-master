@@ -1,6 +1,6 @@
 # 測試與回到預設設定
 
-<p align="center"><a href="./TESTING.zh-TW.md">繁體中文</a> · <a href="./TESTING.md">英文版</a></p>
+<p align="center"><a href="./TESTING.zh-TW.md" style="text-decoration: none;">🇹🇼 繁體中文</a> · <a href="./TESTING.md" style="text-decoration: none;">🇬🇧 English</a></p>
 
 請在新的 Codex task 中，以無害的唯讀工作執行測試，並記錄客戶端實際顯示的證據。
 

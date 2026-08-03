@@ -1,6 +1,6 @@
 # Change log
 
-<p align="center"><a href="./CHANGELOG.zh-TW.md">Traditional Chinese</a> · <a href="./CHANGELOG.md">English</a></p>
+<p align="center"><a href="./CHANGELOG.zh-TW.md" style="text-decoration: none;">🇹🇼 Traditional Chinese</a> · <a href="./CHANGELOG.md" style="text-decoration: none;">🇬🇧 English</a></p>
 
 ## Current public contract
 
