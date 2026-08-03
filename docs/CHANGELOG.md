@@ -10,4 +10,4 @@ The active command names in this repository are:
 The preserved `SOL_DELEGATION_SETUP_REQUEST.md` is the original request
 snapshot and predates that wording decision. It remains unchanged so that the
 request can be audited, while the examples and current documentation describe
-the final names.`n
+the final names.

@@ -11,4 +11,4 @@ Keep contributions small, explicit, and evidence-backed.
 5. Explain observed behavior versus intended behavior in the change summary.
 
 Changes that alter command semantics, agent identity, or speed policy require
-an explicit rationale and updated positive/negative tests.`n
+an explicit rationale and updated positive/negative tests.

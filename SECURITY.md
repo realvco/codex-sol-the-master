@@ -17,4 +17,4 @@ If sensitive material is found:
 
 For a suspected security issue in this project, contact the repository owner
 through a private GitHub channel. Do not disclose exploitable details publicly
-until remediation is coordinated.`n
+until remediation is coordinated.

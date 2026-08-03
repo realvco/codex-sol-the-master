@@ -18,4 +18,4 @@ Do not match substrings, punctuation-normalized variants, semantic similarities,
 quoted examples, or negated instructions. Do not request Fast service tier. The
 delegation ends when the child returns; the parent configuration is unchanged.
 
-<!-- END SOL DELEGATION ROUTING -->`n
+<!-- END SOL DELEGATION ROUTING -->

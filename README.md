@@ -1,4 +1,9 @@
-# Codex Sol 委派設定
+<h1 align="center">Codex Sol 委派設定</h1>
+
+<p align="center">
+  <a href="./README.md"><img alt="繁體中文主版本" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-%E4%B8%BB%E7%89%88%E6%9C%AC-1f6feb?style=for-the-badge"></a>
+  <a href="./README.en.md"><img alt="English version" src="https://img.shields.io/badge/English-README.en.md-6f42c1?style=for-the-badge"></a>
+</p>
 
 本專案整理一套「明確指令、單次委派」的兩層 Codex Sol 設定。
 
@@ -38,7 +43,3 @@ tier 遙測，就明確標示「未觀測到」，不要推測或宣稱已驗證
 
 不要提交 API key、token、私有 log、個人絕對路徑或個人 Codex home 內容。
 詳見 [SECURITY.md](SECURITY.md)。
-
-## English
-
-英文版本請見 [README.en.md](README.en.md)。`n

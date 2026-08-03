@@ -18,4 +18,4 @@ edge cases, and validation evidence carefully. Do not silently change the
 objective, spawn nested agents, or modify unrelated files. Report work,
 decisions, files, checks, observed model/effort/tier, and limitations. After
 returning the result, control belongs to the parent task.
-"""`n
+"""

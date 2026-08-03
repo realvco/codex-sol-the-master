@@ -39,4 +39,4 @@ committing.
 ## Reporting
 
 Every change report should state what changed, files touched, checks run,
-observed results, and any unobservable runtime behavior or remaining risk.`n
+observed results, and any unobservable runtime behavior or remaining risk.

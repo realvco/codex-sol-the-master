@@ -58,4 +58,4 @@ Routing is opt-in and single-task:
 6. If both exact commands are active for one task, use only `sol_xhigh`.
 
 Quoted examples, negations, documentation, translation requests, and partial or
-similar phrases are not activation commands.`n
+similar phrases are not activation commands.

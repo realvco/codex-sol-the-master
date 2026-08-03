@@ -3,6 +3,10 @@
 ## Content
 
 - [ ] README and Chinese README agree on the two exact commands.
+- [ ] `README.md` is the Traditional Chinese primary page and `README.en.md` is
+      the English companion page.
+- [ ] Both README files expose the same clickable language selector near the
+      top and link to each other.
 - [ ] `docs/CONFIGURATION.md` and both TOML examples agree on agent names,
       model, and effort.
 - [ ] The original request remains intact and is clearly marked as reference
@@ -28,4 +32,4 @@
 - [ ] Negative near-match tests do not activate either agent.
 - [ ] Parent `/status` or equivalent confirms return to the normal parent task.
 - [ ] Service-tier claims are limited to observable evidence.
-- [ ] `git status` and `git diff --check` are clean apart from intended changes.`n
+- [ ] `git status` and `git diff --check` are clean apart from intended changes.

@@ -18,4 +18,4 @@ change the user's objective, spawn nested agents, or modify unrelated files.
 Report work completed, files changed, checks run, observed model/effort/tier,
 and any unobservable behavior. After returning the result, control belongs to
 the parent task.
-"""`n
+"""

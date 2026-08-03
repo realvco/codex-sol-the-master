@@ -63,4 +63,4 @@ After the child reports completion:
 
 This verifies scope is single-task. It does not prove that every future client
 will expose the same tier telemetry. If the client shows no tier, record
-“service tier not observable” rather than inferring Standard or Fast.`n
+“service tier not observable” rather than inferring Standard or Fast.

@@ -20,4 +20,4 @@ body:
       label: Codex version
       description: Include the client version if the issue is runtime-related.
     validations:
-      required: false`n
+      required: false

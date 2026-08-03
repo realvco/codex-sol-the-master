@@ -14,4 +14,4 @@
 - [ ] TOML examples parse.
 - [ ] Exact-match and near-match tests were run.
 - [ ] Return-to-default behavior was checked or the limitation is documented.
-- [ ] `git diff --check` passes.`n
+- [ ] `git diff --check` passes.

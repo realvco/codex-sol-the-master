@@ -31,8 +31,18 @@ Codex version, agent identity, model, reasoning effort, and service tier only
 when each is actually observable. A missing tier signal is an explicit
 limitation, not permission to infer Standard or Fast.
 
+## README presentation
+
+- `README.md` is the primary Traditional Chinese entry page.
+- `README.en.md` is the English companion page.
+- Both pages show the same centered, clickable language selector directly below
+  the title, before the long-form content.
+- The selector links to both pages and uses meaningful alt text; it is not a
+  decorative or dead badge.
+- Keep the root README scannable and move detailed procedures into `docs/`.
+
 ## Change policy
 
 The repository documents a personal configuration pattern; it is not an
 installer. Any future installer must be proposed separately with a reversible
-dry-run, backup, explicit target paths, and a security review.`n
+dry-run, backup, explicit target paths, and a security review.
