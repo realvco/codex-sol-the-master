@@ -7,6 +7,15 @@
 
 <h1 align="center">Codex Sol delegation</h1>
 
+When you have configured ChatGPT 5.6 Luna Max Fast but need to temporarily
+switch a single conversation to Sol High or Sol xHigh, you need
+`codex-sol-the-master`. It provides a clear, auditable two-tier delegation
+pattern: exact Chinese or English commands send one complete task to the named
+Sol agent, then control returns to the original parent task after completion,
+failure, or interruption. It also includes safe-install examples, positive and
+negative tests, and return-to-default verification so you can summon deeper
+reasoning when needed without permanently changing the parent configuration.
+
 This repository documents a two-level, explicit delegation setup for Codex:
 
 | Exact command | Custom agent | Model | Reasoning |
