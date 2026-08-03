@@ -25,6 +25,59 @@ The English aliases intentionally use `call` for the high tier and `summon`
 for the extra-high tier. The explicit `sol high` and `sol xhigh` tokens keep the
 mapping visible while remaining short.
 
+## Design principles
+
+This setup separates the normal Codex parent task from explicitly summoned Sol
+child agents. The parent model, reasoning effort, and speed remain whatever the
+Codex App currently selects. A Sol command authorizes only one complete task;
+it is not a permanent conversation-wide mode switch.
+
+### The two Sol tiers
+
+- `sol_high` uses `gpt-5.6-sol` with `high` reasoning. It is suited to root-cause
+  analysis, targeted fixes, test completion, and ordinary cross-file work.
+- `sol_xhigh` uses `gpt-5.6-sol` with `xhigh` reasoning. It is suited to
+  architecture tradeoffs, migrations, high-risk changes, complex dependencies,
+  and tasks that require an additional validation pass.
+
+`high` and `xhigh` describe reasoning depth, not service speed. Neither Sol
+agent may request Fast. When the client does not expose service-tier evidence,
+reports must say “not observable” rather than turning an inference into a
+verified claim.
+
+### One-task delegation lifecycle
+
+1. The user supplies a complete command with the task, or supplies the command
+   alone after a clear unfinished task already exists.
+2. The parent creates the named custom agent and passes the task, constraints,
+   current progress, file scope, and acceptance criteria.
+3. The child performs the work and reports changes, checks, model/effort, and
+   any unobservable runtime behavior.
+4. When the child completes, fails, reports a blocker, is stopped, or its
+   thread closes, that authorization ends and control returns to the parent.
+5. A later task needs the full command again. Difficulty, file count, or parent
+   uncertainty never activates Sol automatically.
+
+### Exact matching and precedence
+
+All four commands use complete literal matching. Quotes, documentation,
+translation requests, negations, partial phrases, and general requests for
+deeper reasoning are not activation commands. The canonical English aliases are
+lowercase and must not be rewritten.
+
+If both tiers are assigned to the same task, use only the higher-priority
+`sol_xhigh` so two agents do not duplicate the same work. Separate, clearly
+non-overlapping tasks may be assigned to different agents; if the boundary is
+unclear, give the complete task to `sol_xhigh`.
+
+### Scope and safety
+
+This repository is documentation and configuration examples, not an installer.
+Before applying the examples, check the Codex version and Agent TOML schema,
+back up `$CODEX_HOME`, inspect existing agents and routing blocks, and change
+only explicitly authorized files. Never publish API keys, tokens, cookies,
+private logs, personal absolute paths, or a private Codex Home.
+
 ## What is included
 
 - `SOL_DELEGATION_SETUP_REQUEST.md` — the original setup request preserved as

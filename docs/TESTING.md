@@ -3,6 +3,17 @@
 Run these tests in a new Codex task with a harmless read-only request. Record
 the client version and the evidence shown by the client.
 
+## 0. Preflight and evidence rules
+
+Before testing, confirm the active Codex executable, `$CODEX_HOME`, the custom
+agent directory, and the client version. Use a fresh task so an old prompt or
+cached routing block cannot be mistaken for the current configuration.
+
+For every positive test, record the task identity, actual child agent, model,
+reasoning effort, and service-tier status when the client exposes them. A
+missing tier signal is recorded as “service tier not observable”; it is never
+converted into a claim of Standard or Fast.
+
 ## 1. Baseline
 
 Before using a delegation command:
@@ -39,6 +50,10 @@ Expected evidence:
 - Fast is not requested;
 - service-tier status is reported only if visible.
 
+The positive result must show the actual custom child, not a parent response
+that merely imitates Sol. The parent should wait for the child result before
+presenting the task outcome.
+
 ## 3. Negative and collision tests
 
 Run these without an exact active command and verify that no custom agent is
@@ -74,3 +89,30 @@ After the child reports completion:
 This verifies scope is single-task. It does not prove that every future client
 will expose the same tier telemetry. If the client shows no tier, record
 “service tier not observable” rather than inferring Standard or Fast.
+
+## 6. Optional parent-speed isolation
+
+If the client exposes enough telemetry, repeat the positive tests while the
+parent task is set to Fast. Confirm that the child does not silently request or
+inherit Fast, then confirm that the parent returns to its original setting after
+the child ends. If the client cannot show independent child speed, record that
+as an unresolved observability limit rather than altering the user's global App
+setting.
+
+## 7. Evidence report template
+
+Use this compact record for each run:
+
+```text
+Client/version:
+Parent task and configuration:
+Exact command:
+Actual child agent:
+Model:
+Reasoning effort:
+Service tier or Fast status:
+Files changed:
+Checks performed:
+Return-to-default result:
+Unobservable behavior or blockers:
+```
