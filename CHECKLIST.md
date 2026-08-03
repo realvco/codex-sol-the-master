@@ -8,6 +8,8 @@
       the English companion page.
 - [ ] Both README files expose the same top links, with `繁體中文` approximately
       20px and `English` approximately 24px, and link to each other.
+- [ ] Language links are plain anchors without heading hover icons or unwanted
+      underline decoration.
 - [ ] `docs/CONFIGURATION.md` and both TOML examples agree on agent names,
       model, and effort.
 - [ ] The original request remains intact and is clearly marked as reference

@@ -42,7 +42,8 @@ limitation, not permission to infer Standard or Fast.
   and long-form content: `繁體中文` at approximately 20px and `English` at
   approximately 24px.
 - The two text links point to the two README files; image badges are not used as
-  the language selector.
+  the language selector. Use plain anchor text links rather than `h2`/`h3`
+  wrappers so GitHub does not add heading hover anchors or a clipped hash icon.
 - Keep the root README scannable and move detailed procedures into `docs/`.
 
 ## Change policy
