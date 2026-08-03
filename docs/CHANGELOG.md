@@ -1,6 +1,6 @@
 # Change log
 
-<p align="center"><a href="./CHANGELOG.zh-TW.md">繁體中文</a> · <a href="./CHANGELOG.md">English</a></p>
+<p align="center"><a href="./CHANGELOG.zh-TW.md">Traditional Chinese</a> · <a href="./CHANGELOG.md">English</a></p>
 
 ## Current public contract
 
@@ -8,8 +8,6 @@ The active command names in this repository are:
 
 - `call sol high` → `sol_high`
 - `summon sol xhigh` → `sol_xhigh`
-- `有請高手處理` → `sol_high`
-- `恭請高高手處理` → `sol_xhigh`
 
 The preserved `SOL_DELEGATION_SETUP_REQUEST.md` is the original request
 snapshot and predates that wording decision. It remains unchanged so that the

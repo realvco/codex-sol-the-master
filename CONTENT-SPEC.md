@@ -12,13 +12,12 @@
 | --- | --- | --- | --- | --- |
 | `call sol high` | `sol_high` | `gpt-5.6-sol` | `high` | Normal/default; never request Fast |
 | `summon sol xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` | Normal/default; never request Fast |
-| `有請高手處理` | `sol_high` | `gpt-5.6-sol` | `high` | Normal/default; never request Fast |
-| `恭請高高手處理` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` | Normal/default; never request Fast |
 
 These are exact active commands. Similar wording, a partial phrase, quoted
 text, documentation, examples, or a request for more depth do not activate an
 agent. The English aliases are `call sol high` and `summon sol xhigh`; they are
-not translations that may be paraphrased at runtime.
+not translations that may be paraphrased at runtime. Traditional Chinese
+aliases are maintained in `README.md` and the `.zh-TW.md` companion documents.
 
 ## Operating modes
 
@@ -43,8 +42,10 @@ limitation, not permission to infer Standard or Fast.
 - `docs/TESTING.zh-TW.md` and `docs/TESTING.md` are paired testing guides with
   equivalent positive, negative, collision, and return-to-default coverage.
 - `docs/CHANGELOG.zh-TW.md` and `docs/CHANGELOG.md` are paired change records.
+- English-facing files contain no CJK text; they link to Traditional Chinese
+  companions by English labels and paths.
 - Both root README pages show only two centered text links at the very top, before the title
-  and long-form content: `繁體中文` at approximately 20px and `English` at
+  and long-form content: `Traditional Chinese` at approximately 20px and `English` at
   approximately 24px.
 - The two text links point to the two README files; image badges are not used as
   the language selector. Use plain anchor text links rather than `h2`/`h3`

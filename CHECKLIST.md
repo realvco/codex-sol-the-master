@@ -2,16 +2,19 @@
 
 ## Content
 
-- [ ] README and English companion agree on all four exact commands (two Chinese
-      commands and two English aliases).
+- [ ] README command mappings are complete: the English companion lists the two
+      English aliases, while the Traditional Chinese page lists the two Chinese
+      aliases.
 - [ ] `README.md` is the Traditional Chinese primary page and `README.en.md` is
       the English companion page.
-- [ ] Both README files expose the same top links, with `繁體中文` approximately
+- [ ] Both README files expose the same top links, with `Traditional Chinese` approximately
       20px and `English` approximately 24px, and link to each other.
 - [ ] Language links are plain anchors without heading hover icons or unwanted
       underline decoration.
 - [ ] Configuration, testing, and changelog documents each have Traditional
       Chinese and English companions with reciprocal language links.
+- [ ] English-facing Markdown and TOML files contain no Chinese characters;
+      Chinese command details remain in the Traditional Chinese companions.
 - [ ] The two testing guides contain equivalent positive, negative, collision,
       return-to-default, and evidence-report sections.
 - [ ] `docs/CONFIGURATION.md` and both TOML examples agree on agent names,

@@ -1,6 +1,6 @@
 <table align="center">
   <tr>
-    <td align="center"><a href="./README.md" style="font-size: 20px; text-decoration: none;">繁體中文</a></td>
+    <td align="center"><a href="./README.md" style="font-size: 20px; text-decoration: none;">Traditional Chinese</a></td>
     <td align="center"><a href="./README.en.md" style="font-size: 24px; text-decoration: none;">English</a></td>
   </tr>
 </table>
@@ -13,13 +13,11 @@ This repository documents a two-level, explicit delegation setup for Codex:
 | --- | --- | --- | --- |
 | `call sol high` | `sol_high` | `gpt-5.6-sol` | `high` |
 | `summon sol xhigh` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
-| `有請高手處理` | `sol_high` | `gpt-5.6-sol` | `high` |
-| `恭請高高手處理` | `sol_xhigh` | `gpt-5.6-sol` | `xhigh` |
 
-The commands are single-task controls. They do not permanently change the
-primary model, effort, or speed setting. Matching is literal: do not use fuzzy,
-substring, punctuation-normalized, or semantic matching. The four commands
-must never activate one another.
+The English aliases are single-task controls. They do not permanently change
+the primary model, effort, or speed setting. Matching is literal: do not use
+fuzzy, substring, punctuation-normalized, or semantic matching. The two English
+aliases must never activate one another.
 
 The English aliases intentionally use `call` for the high tier and `summon`
 for the extra-high tier. The explicit `sol high` and `sol xhigh` tokens keep the
@@ -60,7 +58,7 @@ verified claim.
 
 ### Exact matching and precedence
 
-All four commands use complete literal matching. Quotes, documentation,
+Both English aliases use complete literal matching. Quotes, documentation,
 translation requests, negations, partial phrases, and general requests for
 deeper reasoning are not activation commands. The canonical English aliases are
 lowercase and must not be rewritten.
@@ -98,11 +96,11 @@ plugin and it does not automatically modify a user's Codex installation.
 
 ## Quick start
 
-1. Read [Configuration](docs/CONFIGURATION.md) or the [繁體中文 configuration guide](docs/CONFIGURATION.zh-TW.md).
+1. Read [Configuration](docs/CONFIGURATION.md) or the [Traditional Chinese configuration guide](docs/CONFIGURATION.zh-TW.md).
 2. Back up the personal Codex home before making changes.
 3. Install the examples only after checking the current Codex version and the
    supported agent schema for that version.
-4. Start a new task and run the tests in [Testing](docs/TESTING.md) or [繁體中文測試說明](docs/TESTING.zh-TW.md).
+4. Start a new task and run the tests in [Testing](docs/TESTING.md) or the [Traditional Chinese testing guide](docs/TESTING.zh-TW.md).
 
 Use the exact command as an active instruction followed by a harmless,
 read-only task. For example:

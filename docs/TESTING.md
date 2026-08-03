@@ -1,6 +1,6 @@
 # Testing and return to default
 
-<p align="center"><a href="./TESTING.zh-TW.md">繁體中文</a> · <a href="./TESTING.md">English</a></p>
+<p align="center"><a href="./TESTING.zh-TW.md">Traditional Chinese</a> · <a href="./TESTING.md">English</a></p>
 
 Run these tests in a new Codex task with a harmless read-only request. Record
 the client version and the evidence shown by the client.
@@ -29,14 +29,6 @@ Before using a delegation command:
 Use each exact command as an active instruction in separate tasks:
 
 ```text
-有請高手處理。請讀取 README.md 並回報標題，不要修改任何檔案。
-```
-
-```text
-恭請高高手處理。請讀取 README.md 並回報標題，不要修改任何檔案。
-```
-
-```text
 call sol high. Read README.md and report its title. Do not modify any file.
 ```
 
@@ -61,12 +53,9 @@ presenting the task outcome.
 Run these without an exact active command and verify that no custom agent is
 spawned:
 
-- `有請高手處理嗎？` as a quoted question, not an instruction;
-- a sentence containing only `高手處理`;
-- a sentence containing only `高高手處理`;
 - `call sol high?` as a question, not an instruction;
 - a sentence containing only `sol high` or `sol xhigh`;
-- a paraphrase such as “請用更深的推理”；
+- a paraphrase such as “use deeper reasoning”;
 - a documentation or translation request that mentions either phrase.
 
 The routing guard is literal. Do not “correct” near matches into an exact

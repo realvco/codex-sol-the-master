@@ -18,8 +18,10 @@ user's live Codex home.
 
 ## Editing rules
 
-- Preserve the exact command strings `有請高手處理` and `恭請高高手處理`.
 - Preserve the exact English aliases `call sol high` and `summon sol xhigh`.
+- The Traditional Chinese aliases are maintained in `README.md` and the
+  `.zh-TW.md` companion documents; do not rewrite them while editing English
+  documents.
 - Keep matching literal and exact. Do not add fuzzy, substring, punctuation-
   normalization, or semantic matching rules.
 - Do not claim that a service tier was verified unless the runtime exposed it.
